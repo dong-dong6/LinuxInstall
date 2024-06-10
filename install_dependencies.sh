@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 定义依赖库集合
-DEPENDENCIES=("curl" "git" "wget" "make" "bzip2")
+DEPENDENCIES=("curl" "git" "wget" "make" "bzip2" "jq")
 
 # 检测操作系统类型
 if [ -f /etc/debian_version ]; then
